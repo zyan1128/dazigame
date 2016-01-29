@@ -1,0 +1,54 @@
+html,body{
+    width:100%;
+    height:100%;
+    background: url("../images/bak.jpg");
+    background-size: cover;
+    overflow: hidden;
+
+}
+*{box-sizing: border-box;}
+li,ul{
+    padding:0;margin: 0;
+    list-style: none;
+}
+.panel{
+    width:15%;  height:100%;
+    position: fixed;  bottom:0;  right:0;
+    color:#FF4545;
+}
+.panel .die,.panel .sore{
+    width: 100%;margin-top: 70%;
+    /*height: 100%;*/
+    float: left;
+    text-align: right;  line-height: 60px;font-size:60px;
+    /*border-top:1px solid red;*/
+    border-bottom:1px solid rgb(196, 196, 196);
+}
+select{
+    width:80%;  height:40px;margin: 20px;
+    background: rgba(200,200,200,0.7);
+    float: right;
+}
+.die span,.sore span{
+    background: none;
+}
+span{
+    width:100px;height:100px;
+    background: url("../images/all.png");
+    background-size: cover;
+    text-align: center;
+    line-height: 50px;
+}
+.select{
+    width:10%;height: 100%;padding: 10% 1%;
+}
+.btn{
+    text-align: center;line-height: 5px;color:#fff;
+    margin:20% 0;
+    padding:20px;
+    background: rgba(0,0,0,0.7);
+    box-shadow: 0 0 10px #fff;
+    border-radius: 20px;
+    display: inline-block;
+    cursor: pointer;
+}
